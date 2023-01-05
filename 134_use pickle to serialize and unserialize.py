@@ -4,12 +4,12 @@ a1 = "Felix"
 a2 = 1985
 a3 = [2022, 2023, 2024]
 
-with open("data.dat", "wb") as f:
+with open("130_data.dat", "wb") as f:
     pickle.dump(a1, f)
     pickle.dump(a2, f)
     pickle.dump(a3, f)
 
-with open("data.dat", "rb") as f:
+with open("130_data.dat", "rb") as f:
     b1 = pickle.load(f)
     b2 = pickle.load(f)
     b3 = pickle.load(f)
